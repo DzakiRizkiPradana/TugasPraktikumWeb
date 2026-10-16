@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body { font-family: Arial; background: #f4f8ff; }
+        h1 { color: #1a56b0; text-align: center; }
+        table { border-collapse: collapse; width: 100%; }
+        th { background: #1a56b0; color: white; padding: 6px; }
+        td { border: 1px solid #ccd; padding: 6px; }
+        .aktif { background: #e6eefb; }
+        #judul { font-size: 24px; }
+    </style>
+    <title>Pendaftaran Peserta</title>
+</head>
+<body>
+    <h1>Pendaftaran Peserta</h1>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama">
+        <br><br>
+        <label>Jenis Kelamin:</label>
+        <label>
+        <input type="radio" name="kelamin" > Laki-laki
+        <input type="radio" name="kelamin" > Perempuan
+        </label>
+        <br><br>
+        <label for="jurusan">Jurusan:</label>
+        <select name="jurusan">
+            <option>Informatika</option>
+            <option>Sistem Informasi</option>
+        </select>
+        <br><br>
+        <button type="submit">Kirim</button>
+    </form> <br>
+    <table border="1">
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Jurusan</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Budi Santoso</td>
+            <td>Informatika</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Sari Wulandari</td>
+            <td>Sistem Informasi</td>
+        </tr>
+</body>
+</html>
